@@ -36,8 +36,8 @@ app.listen(3000, () => {
 });
 
 const CLIENT_ID =
-  "134999284364-3gco4tibv5qh7t7h2kcgi5ppc1hemsik.apps.googleusercontent.com";
-const CLIENT_SECRET = "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";
+  "134999284364-2q742ng8kjl7m9o3ef4bbmj4mic2lnfo.apps.googleusercontent.com";
+const CLIENT_SECRET = "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";
 async function sendEmail() {
   try {
     const transport = nodemailer.createTransport({
@@ -51,7 +51,7 @@ async function sendEmail() {
         clientId: CLIENT_ID,
         clientSecret: CLIENT_SECRET,
         accessToken:
-          "ya29.a0Ael9sCPDc6TLuzPuASTKOG1slsQI-XFGvTdNtMBbZ6YcWTltWAtk8icg3mmbXgb1j3A7Od598wgfjV_UsQMt_XnDG8dcgMizLvviFhdLuqeX2ePdQWV5YthISkzoXc1wjzyTXogz5-eTjNI3wnXMkvTNjZ8tnBkaCgYKAQcSARISFQF4udJh-DBD6S5BJdAkKPLzWVM5NQ0166",
+          "ya29.a0Ael9sCNJPJajoqqBWpU9L2oTBtAZdo_5GgySzyLDSXwCAAXO3X2xr0MiHKdG7s6KyVZhsHJeb6tDVaKUZX95NU5pdtGglqAEReoJYl5V5j2ePVt4iAdOAZoGyOkP8sO3ZxwfJ2HMe2t7HyJkoxNnWxbNhNxPaCgYKAa8SARISFQF4udJh9Dq28ELrU1-T7xr8Tt6gKw0163",
       },
     });
     const mailOptions = {

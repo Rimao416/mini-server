@@ -32,6 +32,38 @@ Dans notre cas, c'est une application Web
 Puis vers le bas, vous cliquez sur CREER, et là un modal va s'afficher, 
 ce modal contient votre clé publique et secrète comme le montre l'interface ci-dessous
 
-![](public/others/google_cloud_7.png)
+![](public/others/google_cloud_8.png)
 
 Copier cela et insérez ça dans votre code
+
+
+**OAuth 2.0 Playground**
+___Après avoir inseré notre API, nous devons faire une deuxième étape___
+
+Allez sur Google et taper ***Google oauth playground*** ou vous pouvez juste entrer ce lien sur la barre de recherche https://developers.google.com/oauthplayground/
+
+Normalement vous serez ci-dessous 
+
+![](public/others/google_cloud_9.png)
+
+Dans cette interface, il y'a une section ***select the scope***, scroller vers le bas, jusqu'à tomber sur ***Gmail Api V1*** comme l'indique l'interface ci-dessous
+![](public/others/google_cloud_10.png)
+
+Cliquez sur ***Gmail Api V1***, puis ***https://mail.google.com/*** comme l'indique l'interface ci-dessous
+![](public/others/google_cloud_11.png)
+
+En cliquant le button ***Authorize APIS*** qui était bloqué va se débloquer.
+Cliquez dessus
+Vous serez renvoyez vers une interface de connexion
+![](public/others/google_cloud_12.png)
+
+Et après avoir choisi votre compte de connexion, vous serez renvoyer vers l'interface ci-dessous 
+![](public/others/google_cloud_13.png)
+
+Puis cliquez sur le bouton encerclé en rouge pour generer vos token, et vous obtiendrez ça
+![](public/others/google_cloud_14.png)
+
+**NOTEZ QUE CE TOKEN NE VALIDE QUE PENDANT UNE HEURE ET FAUDRA CONSTAMMENT LE RAFRAICHIR**
+
+
+
